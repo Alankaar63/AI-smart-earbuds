@@ -1,0 +1,37 @@
+app:
+  temp_dir: "temps"
+  input_wav: "input.wav"
+  rnnoise_input_raw: "input_48k_mono.raw"
+  rnnoise_output_raw: "denoised_48k_mono.raw"
+  denoised_wav_48k: "denoised_48k_mono.wav"
+  whisper_wav_16k: "denoised_16k_mono.wav"
+
+audio:
+  sample_rate_record: 16000
+  channels: 1
+  dtype: "int16"
+  record_seconds: 5
+
+rnnoise:
+  binary_path: "./rnnoise/examples/rnnoise_demo"
+  ffmpeg_bin: "ffmpeg"
+
+whisper:
+  model_size: "base"
+  device: "cpu"
+  compute_type: "int8"
+  beam_size: 5
+
+translation:
+  default_target_lang: "es"
+  source_lang: "auto"
+
+tts:
+  rate: 170
+  volume: 1.0
+  voice_id: ""
+  non_blocking: true
+
+runtime:
+  print_cpu_usage: true
+  realtime_mode: false
