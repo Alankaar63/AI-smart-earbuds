@@ -16,34 +16,7 @@
 
 ---
 
-## 📖 Table of Contents
 
-- [What is This?](#-what-is-this)
-- [What It Does](#-what-it-does)
-- [System Architecture](#️-system-architecture)
-- [Project Structure](#-project-structure)
-  - [main.py](#mainpy--entry-point)
-  - [config/](#config--configuration-layer)
-  - [audio/](#audio--audio-io-layer)
-  - [ai/](#ai--intelligence-layer)
-  - [utils/](#utils--utilities-layer)
-  - [rnnoise/](#rnnoise--noise-suppression-binary)
-  - [temps/](#temps--temporary-storage)
-- [Pipeline Flow (Step by Step)](#-pipeline-flow-step-by-step)
-- [Setup](#️-setup)
-- [Running the App](#️-running-the-app)
-- [Configuration Reference](#-configuration-reference)
-- [Supported Languages](#-supported-languages)
-- [Key Technologies](#-key-technologies)
-- [Performance & Latency](#-performance--latency)
-- [Troubleshooting](#️-troubleshooting)
-- [Roadmap](#-roadmap--future-improvements)
-- [Related Repositories](#-related-repositories)
-- [Contributing](#-contributing)
-- [Team](#-team)
-- [License](#-license)
-
----
 
 ## 🧠 What is This?
 
